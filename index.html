@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra Laptop Gamer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/note1.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <section class="col1">
+            <div class="card">
+                <img src="assets/img/note1.png" alt="">
+                <div class="card_content">
+                    <p>Laptop Gamer AMD</p>
+                </div>
+                <div class="options">
+                    <input type="number" placeholder="Cantidad" name="quantity" min="1" max="10" id="cantidadCol1">
+                    <select  id="colorCol1">
+                        <option value="" disabled selected>Color</option>
+                        <option value="red">Rojo</option>
+                        <option value="gray">Gris</option>
+                        <option value="black">Negro</option>
+                        <option value="blue">Azul</option>
+                        <option value="purple" >Morado</option>
+                        <option value="rgb(226, 115, 133)">Rosado</option>
+                    </select>
+                </div>
+                <div class="price">
+                    <p>Precio: <span id="precioCol1">400000</span></p>
+                </div>
+                <div class="btn" >
+                    <button id="calculoPedido">Calcular Total</button>
+                </div>
+            </div>
+        </section>
+        <section class="carro">
+            <ul>
+                <li>Total: $<span id="totalCol2">0</span></li>
+                <li>Cantidad: <span id="cantidadCol2">0</span></li>
+                <li>Color: <span id="colorCol2" class="dot"></span></li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
